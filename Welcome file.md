@@ -58,6 +58,9 @@ If there is a need to change the original cell (squeeze or stretch, bend it) tog
 >atoms.get_positions()
 >view(atoms)
 
+<center>
+  <img src="https://github.com/timmos1/APMM_2025/blob/master/pic2.png?raw=true" width="200" height="200">
+</center>
 
 
 
@@ -226,6 +229,6 @@ eyJoaXN0b3J5IjpbLTc1MzUwNjA2NSwtMTg1NzE5MDY4MiwtMT
 Y4ODQ2NzUyNSwxMTI0MzcxNTQ2LDE3ODA3Njg0NzRdfQ==
 -->
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTAyMTYyMzI4NSwxMTA1MjAyMTQ1LDE5Nz
-kyMDMwMjcsLTIxMjk4MzYxNjVdfQ==
+eyJoaXN0b3J5IjpbLTEwOTIzMzIyODgsMTEwNTIwMjE0NSwxOT
+c5MjAzMDI3LC0yMTI5ODM2MTY1XX0=
 -->
