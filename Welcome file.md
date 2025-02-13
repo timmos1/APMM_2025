@@ -217,7 +217,7 @@ https://github.com/timmos1/APMM_2025/blob/master/Screenshot%20from%202025-02-13%
 </left>
 <right>
   <img src="
-https://github.com/timmos1/APMM_2025/blob/master/Screenshot%20from%202025-02-13%2021-14-58.png?raw=true" width=400>
+https://github.com/timmos1/APMM_2025/blob/master/Screenshot%20from%202025-02-13%2021-23-19.png?raw=true" width=317>
 </right>
 
 ## TASK 04
@@ -241,8 +241,8 @@ eyJoaXN0b3J5IjpbLTc1MzUwNjA2NSwtMTg1NzE5MDY4MiwtMT
 Y4ODQ2NzUyNSwxMTI0MzcxNTQ2LDE3ODA3Njg0NzRdfQ==
 -->
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjc1NjIxNDc1LDE3MzQ1NjQ4MDksLTEzNT
-M3ODA5NjIsLTE0OTUzNzkxMzQsMTY2Mzc1MjIxNiwtMTA5MjMz
-MjI4OCwxMTA1MjAyMTQ1LDE5NzkyMDMwMjcsLTIxMjk4MzYxNj
-VdfQ==
+eyJoaXN0b3J5IjpbNDM2Njg0Njc3LDY3NTYyMTQ3NSwxNzM0NT
+Y0ODA5LC0xMzUzNzgwOTYyLC0xNDk1Mzc5MTM0LDE2NjM3NTIy
+MTYsLTEwOTIzMzIyODgsMTEwNTIwMjE0NSwxOTc5MjAzMDI3LC
+0yMTI5ODM2MTY1XX0=
 -->
