@@ -35,7 +35,7 @@ Let's now check the positions on which were the individual atoms set and move th
 >atoms.set_positions([(2, 0, 0), (0, 2, 2), (2, 2, 0)])
 >atoms.get_positions()
 
-Atoms object can be assigned a ```cell``` determined by 3 cell parameters and angles between them or by . Set the atoms a cubic cell with lattice parameters ```2 ang```.
+Atoms object can be assigned a ```cell``` determined by 3 cell parameters and angles between them or by an array of cell vectors. Set the atoms a cubic cell with lattice parameters ```2 ang```.
 >atoms.set_cell(2*np.identity(3))
 >atoms.get_cell()
 
@@ -53,12 +53,10 @@ Visualization of the Atoms object can be performed using [view](https://wiki.fys
   <img src="https://github.com/timmos1/APMM_2025/blob/master/N3.png?raw=true" width="200" height="200">
 </center>
 
-
-
-
 If there is a need to change the original cell (squeeze or stretch, bend it) together with the atomic structure inside, we just set the new cell with 
 >atoms.set_cell(3*cell,scale_atoms=True)
 >atoms.get_positions()
+>view(atoms)
 
 
 
@@ -228,6 +226,6 @@ eyJoaXN0b3J5IjpbLTc1MzUwNjA2NSwtMTg1NzE5MDY4MiwtMT
 Y4ODQ2NzUyNSwxMTI0MzcxNTQ2LDE3ODA3Njg0NzRdfQ==
 -->
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTA5MDUxMTAwLDExMDUyMDIxNDUsMTk3OT
-IwMzAyNywtMjEyOTgzNjE2NV19
+eyJoaXN0b3J5IjpbMTAyMTYyMzI4NSwxMTA1MjAyMTQ1LDE5Nz
+kyMDMwMjcsLTIxMjk4MzYxNjVdfQ==
 -->
