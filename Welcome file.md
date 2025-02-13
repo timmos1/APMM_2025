@@ -116,7 +116,7 @@ view(system)
 ```
 <center>
   <img src="
-https://github.com/timmos1/APMM_2025/blob/master/Screenshot%20from%202025-02-13%2019-24-35.png?raw=true" width=400>
+https://github.com/timmos1/APMM_2025/blob/master/Screenshot%20from%202025-02-13%2019-28-40.png?raw=true" width=400>
 </center>
 
 4) create unit cell of InSb in wurtzite crystal structure
@@ -232,6 +232,7 @@ eyJoaXN0b3J5IjpbLTc1MzUwNjA2NSwtMTg1NzE5MDY4MiwtMT
 Y4ODQ2NzUyNSwxMTI0MzcxNTQ2LDE3ODA3Njg0NzRdfQ==
 -->
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTY2Mzc1MjIxNiwtMTA5MjMzMjI4OCwxMT
-A1MjAyMTQ1LDE5NzkyMDMwMjcsLTIxMjk4MzYxNjVdfQ==
+eyJoaXN0b3J5IjpbLTE0OTUzNzkxMzQsMTY2Mzc1MjIxNiwtMT
+A5MjMzMjI4OCwxMTA1MjAyMTQ1LDE5NzkyMDMwMjcsLTIxMjk4
+MzYxNjVdfQ==
 -->
