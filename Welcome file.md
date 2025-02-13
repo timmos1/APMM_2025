@@ -35,11 +35,11 @@ Let's now check the positions on which were the individual atoms set and move th
 >atoms.set_positions([(2, 0, 0), (0, 2, 2), (2, 2, 0)])
 >atoms.get_positions()
 
-Atoms object can be assigned a ```cell``` determined by 3 cell parameters and angles between them or by an array of cell vectors. Set the atoms a cubic cell with lattice parameters ```2 ang```.
+Atoms object can be assigned a [cell](https://wiki.fysik.dtu.dk/ase/ase/cell.html) determined by 3 cell parameters and angles between them or by an array of cell vectors. Set the atoms a cubic cell with lattice parameters ```2 ang```.
 >atoms.set_cell(2*np.identity(3))
 >atoms.get_cell()
 
-[Alternative way]() is to create a cell object with the same properties as
+Alternative way is to create a cell object with the same properties as
 >from ase.cell import Cell
 >cellpar = [2, 2, 2, 90, 90, 90]         #[a, b, c, alpha, beta, gamma]
 >cell = Cell.fromcellpar(cellpar) 
@@ -232,7 +232,7 @@ eyJoaXN0b3J5IjpbLTc1MzUwNjA2NSwtMTg1NzE5MDY4MiwtMT
 Y4ODQ2NzUyNSwxMTI0MzcxNTQ2LDE3ODA3Njg0NzRdfQ==
 -->
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzY3ODY4MDM1LC0xNDk1Mzc5MTM0LDE2Nj
-M3NTIyMTYsLTEwOTIzMzIyODgsMTEwNTIwMjE0NSwxOTc5MjAz
-MDI3LC0yMTI5ODM2MTY1XX0=
+eyJoaXN0b3J5IjpbLTEzNTM3ODA5NjIsLTE0OTUzNzkxMzQsMT
+Y2Mzc1MjIxNiwtMTA5MjMzMjI4OCwxMTA1MjAyMTQ1LDE5Nzky
+MDMwMjcsLTIxMjk4MzYxNjVdfQ==
 -->
