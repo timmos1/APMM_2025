@@ -211,14 +211,10 @@ io.write("InSb.xsf", atoms, "xsf")
 
 Visualize the outputs with ```VESTA``` and ```xcrysden``` programs.
 
-<left>
+<img src="your-image-url.jpg" alt="Image description" style="float: left; margin-right: 10px;">
   <img src="
-https://github.com/timmos1/APMM_2025/blob/master/Screenshot%20from%202025-02-13%2021-14-58.png?raw=true" width=400>
-</left>
-<right>
-  <img src="
+https://github.com/timmos1/APMM_2025/blob/master/Screenshot%20from%202025-02-13%2021-14-58.png?raw=true" width=400>  <img src="
 https://github.com/timmos1/APMM_2025/blob/master/Screenshot%20from%202025-02-13%2021-23-19.png?raw=true" width=317>
-</right>
 
 ## TASK 04
 1) use ASE to generate structure of bulk Aluminium (space group #225, [FCC structure](http://lampx.tugraz.at/~hadley/ss1/crystalstructure/structures/fcc/fcc_jsmol.php))
@@ -241,8 +237,8 @@ eyJoaXN0b3J5IjpbLTc1MzUwNjA2NSwtMTg1NzE5MDY4MiwtMT
 Y4ODQ2NzUyNSwxMTI0MzcxNTQ2LDE3ODA3Njg0NzRdfQ==
 -->
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDM2Njg0Njc3LDY3NTYyMTQ3NSwxNzM0NT
-Y0ODA5LC0xMzUzNzgwOTYyLC0xNDk1Mzc5MTM0LDE2NjM3NTIy
-MTYsLTEwOTIzMzIyODgsMTEwNTIwMjE0NSwxOTc5MjAzMDI3LC
-0yMTI5ODM2MTY1XX0=
+eyJoaXN0b3J5IjpbLTk3OTkzOTM5Myw0MzY2ODQ2NzcsNjc1Nj
+IxNDc1LDE3MzQ1NjQ4MDksLTEzNTM3ODA5NjIsLTE0OTUzNzkx
+MzQsMTY2Mzc1MjIxNiwtMTA5MjMzMjI4OCwxMTA1MjAyMTQ1LD
+E5NzkyMDMwMjcsLTIxMjk4MzYxNjVdfQ==
 -->
