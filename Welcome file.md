@@ -146,7 +146,7 @@ atoms.set_cell(cell, scale_atoms=True)
 
 view(atoms)
 
-io.write("InSb_ase.cif", atoms, "cif")
+io.write("InSb_ase.cube", atoms, "cube")
 ```
 
 **Note:** for more python info see [reference card](https://perso.limsi.fr/pointal/_media/python:pqrc:pqrc-2.4-a4-latest.pdf) or [python cheat sheet](https://www.pythoncheatsheet.org/)
@@ -208,6 +208,7 @@ io.write("InSb.cif", atoms, "cif")
 io.write("InSb.xsf", atoms, "xsf")
 ```
 
+Ase reads the 	`InSb_ase.cube` where we have stored our structure in cube 
 Visualize the outputs with ```VESTA``` and ```xcrysden``` programs.
 
 
@@ -232,7 +233,7 @@ eyJoaXN0b3J5IjpbLTc1MzUwNjA2NSwtMTg1NzE5MDY4MiwtMT
 Y4ODQ2NzUyNSwxMTI0MzcxNTQ2LDE3ODA3Njg0NzRdfQ==
 -->
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzNTM3ODA5NjIsLTE0OTUzNzkxMzQsMT
-Y2Mzc1MjIxNiwtMTA5MjMzMjI4OCwxMTA1MjAyMTQ1LDE5Nzky
-MDMwMjcsLTIxMjk4MzYxNjVdfQ==
+eyJoaXN0b3J5IjpbLTEwODEyNTk1NTcsLTEzNTM3ODA5NjIsLT
+E0OTUzNzkxMzQsMTY2Mzc1MjIxNiwtMTA5MjMzMjI4OCwxMTA1
+MjAyMTQ1LDE5NzkyMDMwMjcsLTIxMjk4MzYxNjVdfQ==
 -->
