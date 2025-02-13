@@ -39,7 +39,7 @@ Atoms object can be assigned a ```cell``` determined by 3 cell parameters and an
 >atoms.set_cell(2*np.identity(3))
 >atoms.get_cell()
 
-Alternative way is to create a cell object with the same properties as
+[Alternative way]() is to create a cell object with the same properties as
 >from ase.cell import Cell
 >cellpar = [2, 2, 2, 90, 90, 90]         #[a, b, c, alpha, beta, gamma]
 >cell = Cell.fromcellpar(cellpar) 
@@ -232,7 +232,7 @@ eyJoaXN0b3J5IjpbLTc1MzUwNjA2NSwtMTg1NzE5MDY4MiwtMT
 Y4ODQ2NzUyNSwxMTI0MzcxNTQ2LDE3ODA3Njg0NzRdfQ==
 -->
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0OTUzNzkxMzQsMTY2Mzc1MjIxNiwtMT
-A5MjMzMjI4OCwxMTA1MjAyMTQ1LDE5NzkyMDMwMjcsLTIxMjk4
-MzYxNjVdfQ==
+eyJoaXN0b3J5IjpbMzY3ODY4MDM1LC0xNDk1Mzc5MTM0LDE2Nj
+M3NTIyMTYsLTEwOTIzMzIyODgsMTEwNTIwMjE0NSwxOTc5MjAz
+MDI3LC0yMTI5ODM2MTY1XX0=
 -->
