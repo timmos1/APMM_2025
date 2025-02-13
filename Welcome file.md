@@ -113,12 +113,12 @@ system = crystal([X, Y], basis = [(0.0, 0.0, 0.0), (0.25, 0.25,0.25)], spacegrou
 
 view(system)
 
-
+```
 <center>
   <img src="
-https://github.com/timmos1/APMM_2025/blob/master/Screenshot%20from%202025-02-13%2019-24-35.png?raw=true" width="200" height="200">
+https://github.com/timmos1/APMM_2025/blob/master/Screenshot%20from%202025-02-13%2019-24-35.png?raw=true" width=400>
 </center>
-```
+
 4) create unit cell of InSb in wurtzite crystal structure
 ```sh
 #!/usr/bin/python3
@@ -232,6 +232,6 @@ eyJoaXN0b3J5IjpbLTc1MzUwNjA2NSwtMTg1NzE5MDY4MiwtMT
 Y4ODQ2NzUyNSwxMTI0MzcxNTQ2LDE3ODA3Njg0NzRdfQ==
 -->
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTU3MjM0MzMzOCwtMTA5MjMzMjI4OCwxMT
+eyJoaXN0b3J5IjpbMTY2Mzc1MjIxNiwtMTA5MjMzMjI4OCwxMT
 A1MjAyMTQ1LDE5NzkyMDMwMjcsLTIxMjk4MzYxNjVdfQ==
 -->
