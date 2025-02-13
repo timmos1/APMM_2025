@@ -211,9 +211,11 @@ io.write("InSb.xsf", atoms, "xsf")
 
 Visualize the outputs with ```VESTA``` and ```xcrysden``` programs.
 
-<img src="your-image-url.jpg" alt="Image description" style="float: left; margin-right: 10px;">
+<img src="https://github.com/timmos1/APMM_2025/blob/master/Screenshot%20from%202025-02-13%2021-14-58.png?raw=true" alt="Image description" style="float: left; margin-right: 10px;" width=400>
+<img src="https://github.com/timmos1/APMM_2025/blob/master/Screenshot%20from%202025-02-13%2021-14-58.png?raw=true" alt="Image description" style="float: right; margin-right: 10 px;" width=400>
+
   <img src="
-https://github.com/timmos1/APMM_2025/blob/master/Screenshot%20from%202025-02-13%2021-14-58.png?raw=true" width=400>  <img src="
+" >  <img src="
 https://github.com/timmos1/APMM_2025/blob/master/Screenshot%20from%202025-02-13%2021-23-19.png?raw=true" width=317>
 
 ## TASK 04
@@ -237,8 +239,8 @@ eyJoaXN0b3J5IjpbLTc1MzUwNjA2NSwtMTg1NzE5MDY4MiwtMT
 Y4ODQ2NzUyNSwxMTI0MzcxNTQ2LDE3ODA3Njg0NzRdfQ==
 -->
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTk3OTkzOTM5Myw0MzY2ODQ2NzcsNjc1Nj
-IxNDc1LDE3MzQ1NjQ4MDksLTEzNTM3ODA5NjIsLTE0OTUzNzkx
-MzQsMTY2Mzc1MjIxNiwtMTA5MjMzMjI4OCwxMTA1MjAyMTQ1LD
-E5NzkyMDMwMjcsLTIxMjk4MzYxNjVdfQ==
+eyJoaXN0b3J5IjpbNjE3NDgyNTk1LDQzNjY4NDY3Nyw2NzU2Mj
+E0NzUsMTczNDU2NDgwOSwtMTM1Mzc4MDk2MiwtMTQ5NTM3OTEz
+NCwxNjYzNzUyMjE2LC0xMDkyMzMyMjg4LDExMDUyMDIxNDUsMT
+k3OTIwMzAyNywtMjEyOTgzNjE2NV19
 -->
