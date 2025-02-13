@@ -35,7 +35,7 @@ Let's now check the positions on which were the individual atoms set and move th
 >atoms.set_positions([(2, 0, 0), (0, 2, 2), (2, 2, 0)])
 >atoms.get_positions()
 
-Atoms object can be assigned a ```cell``` determined by 3 cell parameters and angles between them or in the matrix form (check [Cell](https://wiki.fysik.dtu.dk/ase/ase/cell.html)). Set the atoms a cubic cell with lattice parameters ```2 ang```.
+Atoms object can be assigned a ```cell``` determined by 3 cell parameters and angles between them or by . Set the atoms a cubic cell with lattice parameters ```2 ang```.
 >atoms.set_cell(2*np.identity(3))
 >atoms.get_cell()
 
@@ -228,6 +228,6 @@ eyJoaXN0b3J5IjpbLTc1MzUwNjA2NSwtMTg1NzE5MDY4MiwtMT
 Y4ODQ2NzUyNSwxMTI0MzcxNTQ2LDE3ODA3Njg0NzRdfQ==
 -->
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTEwNTIwMjE0NSwxOTc5MjAzMDI3LC0yMT
-I5ODM2MTY1XX0=
+eyJoaXN0b3J5IjpbMTA5MDUxMTAwLDExMDUyMDIxNDUsMTk3OT
+IwMzAyNywtMjEyOTgzNjE2NV19
 -->
