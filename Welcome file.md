@@ -153,7 +153,7 @@ io.write("InSb_ase.cube", atoms, "cube")
 
 
 ## TASK 03
-For the InSb structure from previous task create an input into [Quantum Espresso](https://www.quantum-espresso.org/)  [pw.x](https://www.quantum-espresso.org/Doc/INPUT_PW.html) code using ASE ```write_espresso_in``` function. Read the structure stored in `InSb_ase.cube` file in cube format
+ Read the InSb structure from previous task stored in `InSb_ase.cube` file in cube format and create an input for [Quantum Espresso](https://www.quantum-espresso.org/)  [pw.x](https://www.quantum-espresso.org/Doc/INPUT_PW.html) code using ASE ```write_espresso_in``` function. 
 
 ```sh
 #!/usr/bin/python3
@@ -233,7 +233,7 @@ eyJoaXN0b3J5IjpbLTc1MzUwNjA2NSwtMTg1NzE5MDY4MiwtMT
 Y4ODQ2NzUyNSwxMTI0MzcxNTQ2LDE3ODA3Njg0NzRdfQ==
 -->
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTc0MDczMjU0OCwtMTM1Mzc4MDk2MiwtMT
+eyJoaXN0b3J5IjpbMTczNDU2NDgwOSwtMTM1Mzc4MDk2MiwtMT
 Q5NTM3OTEzNCwxNjYzNzUyMjE2LC0xMDkyMzMyMjg4LDExMDUy
 MDIxNDUsMTk3OTIwMzAyNywtMjEyOTgzNjE2NV19
 -->
