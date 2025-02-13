@@ -50,7 +50,7 @@ Visualization of the Atoms object can be performed using [view](https://wiki.fys
 >view(atoms) 
 
 <center>
-  <img src="https://github.com/timmos1/APMM_2025/blob/master/N3.png?raw=true" alt="Image description">
+  <img src="https://github.com/timmos1/APMM_2025/blob/master/N3.png?raw=true" width="200" height="200">
 </center>
 
 
@@ -228,6 +228,6 @@ eyJoaXN0b3J5IjpbLTc1MzUwNjA2NSwtMTg1NzE5MDY4MiwtMT
 Y4ODQ2NzUyNSwxMTI0MzcxNTQ2LDE3ODA3Njg0NzRdfQ==
 -->
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2OTU4MjQwMywxOTc5MjAzMDI3LC0yMT
+eyJoaXN0b3J5IjpbMTEwNTIwMjE0NSwxOTc5MjAzMDI3LC0yMT
 I5ODM2MTY1XX0=
 -->
