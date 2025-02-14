@@ -65,7 +65,7 @@ If there is a need to change the original cell (squeeze or stretch, bend it) tog
 
 
 ## TASK 02 - Atoms in disguise
-In this task we are going to explore several other objects of ase library which generate a
+In this task we are going to explore several other objects of ase library which generate atomic structures based on description of 
 
 1)Create a new directory silllicon 
 > cd ..
@@ -243,9 +243,9 @@ eyJoaXN0b3J5IjpbLTc1MzUwNjA2NSwtMTg1NzE5MDY4MiwtMT
 Y4ODQ2NzUyNSwxMTI0MzcxNTQ2LDE3ODA3Njg0NzRdfQ==
 -->
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzExNjgwNzcxLDEwODg4OTAyNTIsLTk0MT
-I0NTc2MCwxNzk0NDQ0MDQwLDE3MjQyMDk4NjQsNDM2Njg0Njc3
-LDY3NTYyMTQ3NSwxNzM0NTY0ODA5LC0xMzUzNzgwOTYyLC0xND
-k1Mzc5MTM0LDE2NjM3NTIyMTYsLTEwOTIzMzIyODgsMTEwNTIw
-MjE0NSwxOTc5MjAzMDI3LC0yMTI5ODM2MTY1XX0=
+eyJoaXN0b3J5IjpbLTEzODE2ODAxMzQsMTA4ODg5MDI1MiwtOT
+QxMjQ1NzYwLDE3OTQ0NDQwNDAsMTcyNDIwOTg2NCw0MzY2ODQ2
+NzcsNjc1NjIxNDc1LDE3MzQ1NjQ4MDksLTEzNTM3ODA5NjIsLT
+E0OTUzNzkxMzQsMTY2Mzc1MjIxNiwtMTA5MjMzMjI4OCwxMTA1
+MjAyMTQ1LDE5NzkyMDMwMjcsLTIxMjk4MzYxNjVdfQ==
 -->
