@@ -18,8 +18,10 @@ Save the file content with the "Hello world" program should look like:
 print('Hello, world!')
 ```
 2) Let's explore the basic elements of the ASE package. The most fundamnetal structural unit is ```Atom``` object (see [Atom](https://wiki.fysik.dtu.dk/ase/ase/atom.html) for more details). Try to create the aluminium atom at position r=(0,0,0), with aluminium atomic mass and charge (see [ptable](https://ptable.com/#Properties)) using 	```python_apmm```.
-```
-`
+```sh
+python_apmm
+````
+
 >from ase import Atom
 >al = Atom('Al', position = (0, 0, 0), charge = ?, mass = ?)
 
@@ -245,10 +247,10 @@ eyJoaXN0b3J5IjpbLTc1MzUwNjA2NSwtMTg1NzE5MDY4MiwtMT
 Y4ODQ2NzUyNSwxMTI0MzcxNTQ2LDE3ODA3Njg0NzRdfQ==
 -->
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExNTM1ODI3NjYsMTQ5NjQ3Mjc0OSwxMD
-g4ODkwMjUyLC05NDEyNDU3NjAsMTc5NDQ0NDA0MCwxNzI0MjA5
-ODY0LDQzNjY4NDY3Nyw2NzU2MjE0NzUsMTczNDU2NDgwOSwtMT
-M1Mzc4MDk2MiwtMTQ5NTM3OTEzNCwxNjYzNzUyMjE2LC0xMDky
-MzMyMjg4LDExMDUyMDIxNDUsMTk3OTIwMzAyNywtMjEyOTgzNj
-E2NV19
+eyJoaXN0b3J5IjpbMTE0MjA1MzgxMSwxNDk2NDcyNzQ5LDEwOD
+g4OTAyNTIsLTk0MTI0NTc2MCwxNzk0NDQ0MDQwLDE3MjQyMDk4
+NjQsNDM2Njg0Njc3LDY3NTYyMTQ3NSwxNzM0NTY0ODA5LC0xMz
+UzNzgwOTYyLC0xNDk1Mzc5MTM0LDE2NjM3NTIyMTYsLTEwOTIz
+MzIyODgsMTEwNTIwMjE0NSwxOTc5MjAzMDI3LC0yMTI5ODM2MT
+Y1XX0=
 -->
