@@ -65,7 +65,7 @@ If there is a need to change the original cell (squeeze or stretch, bend it) tog
 
 
 ## TASK 02 - Atoms in disguise
-In this task we are going to explore several other objects of ase library which generate atomic structures based on description of 
+In this task we are going to explore several other objects of ase library generating atomic structures based on the terms as Bravais lattice, cr
 
 1)Create a new directory silllicon 
 > cd ..
@@ -243,9 +243,9 @@ eyJoaXN0b3J5IjpbLTc1MzUwNjA2NSwtMTg1NzE5MDY4MiwtMT
 Y4ODQ2NzUyNSwxMTI0MzcxNTQ2LDE3ODA3Njg0NzRdfQ==
 -->
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzODE2ODAxMzQsMTA4ODg5MDI1MiwtOT
-QxMjQ1NzYwLDE3OTQ0NDQwNDAsMTcyNDIwOTg2NCw0MzY2ODQ2
-NzcsNjc1NjIxNDc1LDE3MzQ1NjQ4MDksLTEzNTM3ODA5NjIsLT
-E0OTUzNzkxMzQsMTY2Mzc1MjIxNiwtMTA5MjMzMjI4OCwxMTA1
-MjAyMTQ1LDE5NzkyMDMwMjcsLTIxMjk4MzYxNjVdfQ==
+eyJoaXN0b3J5IjpbMTExMzU2MzEwMiwxMDg4ODkwMjUyLC05ND
+EyNDU3NjAsMTc5NDQ0NDA0MCwxNzI0MjA5ODY0LDQzNjY4NDY3
+Nyw2NzU2MjE0NzUsMTczNDU2NDgwOSwtMTM1Mzc4MDk2MiwtMT
+Q5NTM3OTEzNCwxNjYzNzUyMjE2LC0xMDkyMzMyMjg4LDExMDUy
+MDIxNDUsMTk3OTIwMzAyNywtMjEyOTgzNjE2NV19
 -->
