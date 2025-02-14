@@ -218,6 +218,9 @@ Visualize the outputs with ```VESTA``` and ```xcrysden``` programs with
 <img src="https://github.com/timmos1/APMM_2025/blob/master/Screenshot%20from%202025-02-13%2021-14-58.png?raw=true" alt="Image description" style="float: left; margin-right: 10px;" width=400>
 <img src="https://github.com/timmos1/APMM_2025/blob/master/Screenshot%20from%202025-02-13%2021-23-19.png?raw=true" alt="Image description" style="float: right; margin-left: 10 px;" width=317>
 
+<img src="https://github.com/timmos1/APMM_2025/blob/master/Screenshot%20from%202025-02-13%2021-14-58.png?raw=true" alt="Image 1" width="45%">
+<img src="image2-url.jpg" alt="Image 2" width="45%">
+
 
 
 
@@ -242,8 +245,9 @@ eyJoaXN0b3J5IjpbLTc1MzUwNjA2NSwtMTg1NzE5MDY4MiwtMT
 Y4ODQ2NzUyNSwxMTI0MzcxNTQ2LDE3ODA3Njg0NzRdfQ==
 -->
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTc5NDQ0NDA0MCwxNzI0MjA5ODY0LDQzNj
-Y4NDY3Nyw2NzU2MjE0NzUsMTczNDU2NDgwOSwtMTM1Mzc4MDk2
-MiwtMTQ5NTM3OTEzNCwxNjYzNzUyMjE2LC0xMDkyMzMyMjg4LD
-ExMDUyMDIxNDUsMTk3OTIwMzAyNywtMjEyOTgzNjE2NV19
+eyJoaXN0b3J5IjpbMTc1NTQxMDA3NSwxNzk0NDQ0MDQwLDE3Mj
+QyMDk4NjQsNDM2Njg0Njc3LDY3NTYyMTQ3NSwxNzM0NTY0ODA5
+LC0xMzUzNzgwOTYyLC0xNDk1Mzc5MTM0LDE2NjM3NTIyMTYsLT
+EwOTIzMzIyODgsMTEwNTIwMjE0NSwxOTc5MjAzMDI3LC0yMTI5
+ODM2MTY1XX0=
 -->
