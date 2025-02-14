@@ -28,7 +28,7 @@ In order to crate more interesting systems consisting of several atoms ASE provi
 
 Create the simple ```N3``` molecule:
 >from  ase  import Atoms
->atoms = Atoms("N3", [(0, 0, 0), (1, 0, 0), (0, 0, 1)])
+>atoms = Atoms('N3', [(0, 0, 0), (1, 0, 0), (0, 0, 1)])
 
 Let's now check the positions on which were the individual atoms set and move them to new ones and print them out
 >atoms.get_positions()
@@ -215,9 +215,6 @@ Visualize the outputs with ```VESTA``` and ```xcrysden``` programs with
 >VESTA InSb.cif
 >xcrysden --pwi pw.in
 
-<img src="https://github.com/timmos1/APMM_2025/blob/master/Screenshot%20from%202025-02-13%2021-14-58.png?raw=true" alt="Image description" style="float: left; margin-right: 10px;" width=400>
-<img src="https://github.com/timmos1/APMM_2025/blob/master/Screenshot%20from%202025-02-13%2021-23-19.png?raw=true" alt="Image description" style="float: right; margin-left: 10 px;" width=317>
-
 <img src="https://github.com/timmos1/APMM_2025/blob/master/Screenshot%20from%202025-02-13%2021-14-58.png?raw=true" alt="Image 1" width="45%">
 <img src="https://github.com/timmos1/APMM_2025/blob/master/Screenshot%20from%202025-02-13%2021-23-19.png?raw=true" alt="Image 2" width="45%">
 
@@ -245,9 +242,9 @@ eyJoaXN0b3J5IjpbLTc1MzUwNjA2NSwtMTg1NzE5MDY4MiwtMT
 Y4ODQ2NzUyNSwxMTI0MzcxNTQ2LDE3ODA3Njg0NzRdfQ==
 -->
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTk0MTI0NTc2MCwxNzk0NDQ0MDQwLDE3Mj
-QyMDk4NjQsNDM2Njg0Njc3LDY3NTYyMTQ3NSwxNzM0NTY0ODA5
-LC0xMzUzNzgwOTYyLC0xNDk1Mzc5MTM0LDE2NjM3NTIyMTYsLT
-EwOTIzMzIyODgsMTEwNTIwMjE0NSwxOTc5MjAzMDI3LC0yMTI5
-ODM2MTY1XX0=
+eyJoaXN0b3J5IjpbMTA4ODg5MDI1MiwtOTQxMjQ1NzYwLDE3OT
+Q0NDQwNDAsMTcyNDIwOTg2NCw0MzY2ODQ2NzcsNjc1NjIxNDc1
+LDE3MzQ1NjQ4MDksLTEzNTM3ODA5NjIsLTE0OTUzNzkxMzQsMT
+Y2Mzc1MjIxNiwtMTA5MjMzMjI4OCwxMTA1MjAyMTQ1LDE5Nzky
+MDMwMjcsLTIxMjk4MzYxNjVdfQ==
 -->
