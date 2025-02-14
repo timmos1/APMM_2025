@@ -1,0 +1,254 @@
+﻿<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Welcome file</title>
+  <link rel="stylesheet" href="https://stackedit.io/style.css" />
+</head>
+
+<body class="stackedit">
+  <div class="stackedit__html"><h1 id="exercise-01--hop-on">exercise 01 :: hop on</h1>
+<p>Aims of the exercise is to introduce linux software platform used for the exercises, get familiar with the linux command line environment, basics of bash scripting and python programming languge, and atomistic simulation environment (ASE).</p>
+<ul>
+<li>for linux commands line <a href="https://webdisk.science.upjs.sk/~martin_gmitra/Atomistic%20Computer%20Modeling%20of%20Materials/linux%20cheat%20sheets">see cheat sheets</a></li>
+<li>see <a href="https://wiki.fysik.dtu.dk/ase/python.html">what is Python?</a> for more details</li>
+<li>more about ASE see <a href="https://wiki.fysik.dtu.dk/ase/about.html">homepage</a></li>
+</ul>
+<h2 id="task-01---getting-to-know-ase">TASK 01 - getting to know ASE</h2>
+<ol>
+<li>open command line terminal and create folder ASE, change working directory to the ASE folder, create and edit a file ASE_ase.py within the aluminium folder</li>
+</ol>
+<blockquote>
+<p>mkdir ASE<br>
+cd ASE<br>
+nano ASE_ase.py</p>
+</blockquote>
+<p>Save the file content with the “Hello world” program should look like:</p>
+<pre class=" language-sh"><code class="prism  language-sh">#!/usr/bin/python
+print('Hello, world!')
+</code></pre>
+<ol start="2">
+<li>Let’s explore the basic elements of the ASE package. The most fundamnetal structural unit is <code>Atom</code> object (see <a href="https://wiki.fysik.dtu.dk/ase/ase/atom.html">Atom</a> for more details). Try to create the aluminium atom at position r=(0,0,0), with aluminium atomic mass and charge (see <a href="https://ptable.com/#Properties">ptable</a>) using 	<code>python_apmm</code>.</li>
+</ol>
+<blockquote>
+<p>from ase import Atom<br>
+al = Atom(‘Al’, position = (0, 0, 0), charge = ?, mass = ?)</p>
+</blockquote>
+<p>Inspect the properties of the <code>al</code> object with</p>
+<blockquote>
+<p>al.mass (charge/momentum/…)</p>
+</blockquote>
+<p>In order to crate more interesting systems consisting of several atoms ASE provides us with <code>Atoms</code> object. Check the parameters of this object at  <a href="https://wiki.fysik.dtu.dk/ase/ase/atoms.html">Atoms</a>. The Atoms object can represent an isolated molecule, or a periodically repeated structure. It has a unit cell and there may be periodic boundary conditions along any of the three unit cell axes. Information about the atoms (atomic numbers and position) is stored in ndarrays. Optionally, there can be information about tags, momenta, masses, magnetic moments and charges.</p>
+<p>Create the simple <code>N3</code> molecule:</p>
+<blockquote>
+<p>from  ase  import Atoms<br>
+atoms = Atoms(=<code>'N3'</code>, [(0, 0, 0), (1, 0, 0), (0, 0, 1)])\</p>
+</blockquote>
+<p>Let’s now check the positions on which were the individual atoms set and move them to new ones and print them out</p>
+<blockquote>
+<p>atoms.get_positions()<br>
+atoms.set_positions([(2, 0, 0), (0, 2, 2), (2, 2, 0)])<br>
+atoms.get_positions()</p>
+</blockquote>
+<p>Atoms object can be assigned a <a href="https://wiki.fysik.dtu.dk/ase/ase/cell.html">cell</a> determined by 3 cell parameters and angles between them or by an array of cell vectors. Set the atoms a cubic cell with lattice parameters <code>2 ang</code>.</p>
+<blockquote>
+<p>atoms.set_cell(2*np.identity(3))<br>
+atoms.get_cell()</p>
+</blockquote>
+<p>Alternative way is to create a cell object with the same properties as</p>
+<blockquote>
+<p>from ase.cell import Cell<br>
+cellpar = [2, 2, 2, 90, 90, 90]         #[a, b, c, alpha, beta, gamma]<br>
+cell = Cell.fromcellpar(cellpar)<br>
+atoms.set_cell(cell)</p>
+</blockquote>
+<p>Visualization of the Atoms object can be performed using <a href="https://wiki.fysik.dtu.dk/ase/ase/visualize/visualize.html">view</a> function</p>
+<blockquote>
+<p>from ase.visualize import view<br>
+view(atoms)</p>
+</blockquote>
+<center>
+  <img src="https://github.com/timmos1/APMM_2025/blob/master/N3.png?raw=true" width="200" height="200">
+</center>
+<p>If there is a need to change the original cell (squeeze or stretch, bend it) together with the atomic structure inside, we just set the new cell with</p>
+<blockquote>
+<p>atoms.set_cell(3*cell,scale_atoms=True)<br>
+atoms.get_positions()<br>
+view(atoms)</p>
+</blockquote>
+<center>
+  <img src="https://github.com/timmos1/APMM_2025/blob/master/pic2.png?raw=true" width="200" height="200">
+</center>
+<h2 id="task-02---atoms-in-disguise">TASK 02 - Atoms in disguise</h2>
+<p>In this task we are going to explore several other objects of ase library generating atomic structures based on the terms as Bravais lattice, crystal, bulk, …</p>
+<p>1)Create a new directory silllicon</p>
+<blockquote>
+<p>cd …<br>
+mkdir silicon<br>
+cd silicon</p>
+</blockquote>
+<ol start="2">
+<li>create the file Po_ase.py of the following content</li>
+</ol>
+<pre class=" language-sh"><code class="prism  language-sh">#!/usr/bin/python3
+
+import ase
+import ase.io as io
+from ase import Atoms, Atom
+from ase.lattice.cubic import SimpleCubic
+from ase.visualize import view
+
+polonium = SimpleCubic(directions=[[1,0,0], [0,1,0], [0,0,1]], symbol='Po', latticeconstant = 3.359)
+view(polonium)
+
+#write output for crystal visualization (use e.g. VESTA)
+struct = polonium
+ase.io.write("Po_ase.cif", struct, "cif")
+</code></pre>
+<p>Run the script</p>
+<blockquote>
+<p>python3 Po_ase.py</p>
+</blockquote>
+<p>which uses ASE to generate a <a href="https://wiki.fysik.dtu.dk/ase/ase/lattice.html">simple cubic crystal</a> of polonium,  and writes cif structure file for further visualization, e.g., using VESTA program</p>
+<blockquote>
+<p>VESTA Po_ase.cif</p>
+</blockquote>
+<ol start="3">
+<li>create slab extending in &lt;111&gt; direction made of GaAs in zincblende structure</li>
+</ol>
+<pre class=" language-sh"><code class="prism  language-sh">#!/usr/bin/python3
+
+import numpy as np
+import ase.io as io
+from ase.spacegroup import crystal
+from ase.visualize import view
+
+a = 5.6533
+X = 'Ga'
+Y = 'As'
+
+# basis is defined in terms of the unit vectors
+system = crystal([X, Y], basis = [(0.0, 0.0, 0.0), (0.25, 0.25,0.25)], spacegroup=216, cellpar=[a, a, a, 90, 90, 90], size = (1,1,4))
+
+view(system)
+
+</code></pre>
+<center>
+  <img src="
+https://github.com/timmos1/APMM_2025/blob/master/Screenshot%20from%202025-02-13%2019-28-40.png?raw=true" width="400">
+</center>
+<ol start="4">
+<li>create unit cell of InSb in wurtzite crystal structure</li>
+</ol>
+<pre class=" language-sh"><code class="prism  language-sh">#!/usr/bin/python3
+
+from ase import *
+from math import *
+from ase.build import bulk
+from ase.visualize import view
+import ase.io as io
+
+a = 4.5712
+c = 7.5221
+ca = c/a
+epsilon = -0.00097
+ua=3/8.+epsilon
+
+atoms = Atoms([Atom('Sb', (2/3., 1/3.,    0)),
+               Atom('Sb', (1/3., 2/3., 1/2.)),
+               Atom('In', (2/3., 1/3., ua)),
+               Atom('In', (1/3., 2/3., 1/2.+ua))])
+cell = [(a*sqrt(3)/2, -a/2, 0),
+        (          0,    a, 0),
+        (          0,    0, c)]
+atoms.set_cell(cell, scale_atoms=True)
+
+view(atoms)
+
+io.write("InSb_ase.cube", atoms, "cube")
+</code></pre>
+<p><strong>Note:</strong> for more python info see <a href="https://perso.limsi.fr/pointal/_media/python:pqrc:pqrc-2.4-a4-latest.pdf">reference card</a> or <a href="https://www.pythoncheatsheet.org/">python cheat sheet</a></p>
+<h2 id="task-03">TASK 03</h2>
+<p>Read the InSb structure from previous task stored in <code>InSb_ase.cube</code> file in cube format and create an input for <a href="https://www.quantum-espresso.org/">Quantum Espresso</a>  <a href="https://www.quantum-espresso.org/Doc/INPUT_PW.html">pw.x</a> code using ASE <code>write_espresso_in</code> function.</p>
+<pre class=" language-sh"><code class="prism  language-sh">#!/usr/bin/python3
+
+import numpy as np
+import ase
+from math import *
+from ase.build import bulk
+from ase.visualize import view
+import ase.io as io
+from ase.io.espresso import write_espresso_in
+
+atoms = io.read("InSb_ase.cube")
+
+view(atoms)
+
+pseudopotentials={
+    'In':'In_ONCV_PBE_sr.upf',
+    'Sb':'Sb_ONCV_PBE'
+        }
+
+kpoints = np.ndarray([6,6,6])
+input_data = {
+    'calculation': 'relax',
+    'restart_mode': 'from_scratch',
+    'tprnfor': True,
+    'etot_conv_thr': 1e-5,
+    'forc_conv_thr': 1e-4,
+    'ecutwfc': 60,
+    'ecutrho': 480,
+    'input_dft': 'rpbe',
+    'vdw_corr': 'dft-d3',
+    'occupations': 'smearing',
+    'degauss': 0.01,
+    'smearing': 'cold',
+    'conv_thr': 1e-8,
+    'mixing_mode': 'local-TF',
+    'mixing_beta': 0.35,
+    'diagonalization': 'david',
+    'ion_dynamics': 'bfgs',
+    'bfgs_ndim': 6,
+    'startingwfc': 'random',
+}  # This flat dictionary will be converted to a nested dictionary where, for example, "calculation" will be put into the "control" section
+
+
+inp = open('pw.in','w')
+
+ase.io.espresso.write_espresso_in(fd=inp, atoms = atoms, pseudopotentials = pseudopotentials,kpts=(4,4,4), input_data = input_data, format='espresso-in')
+
+#write output for crystal visualization (use e.g. VESTA)
+io.write("InSb.cif", atoms, "cif")
+io.write("InSb.xsf", atoms, "xsf")
+</code></pre>
+<p>Visualize the outputs with <code>VESTA</code> and <code>xcrysden</code> programs with</p>
+<blockquote>
+<p>VESTA InSb.cif<br>
+xcrysden --pwi <a href="http://pw.in">pw.in</a></p>
+</blockquote>
+<img src="https://github.com/timmos1/APMM_2025/blob/master/Screenshot%20from%202025-02-13%2021-14-58.png?raw=true" alt="Image 1" width="45%">
+<img src="https://github.com/timmos1/APMM_2025/blob/master/Screenshot%20from%202025-02-13%2021-23-19.png?raw=true" alt="Image 2" width="45%">
+<h2 id="task-04">TASK 04</h2>
+<ol>
+<li>use ASE to generate structure of bulk Aluminium (space group #225, <a href="http://lampx.tugraz.at/~hadley/ss1/crystalstructure/structures/fcc/fcc_jsmol.php">FCC structure</a>)</li>
+<li>use ASE to generate structure of bulk Silicon (space group #227, <a href="http://lampx.tugraz.at/~hadley/memm/materials/silicon/silicon.php">diamond crystal structure</a>)</li>
+</ol>
+<p><strong>Note 1:</strong> for lattice constants see also <a href="https://periodictable.com/Properties/A/LatticeConstants.html">https://periodictable.com/Properties/A/LatticeConstants.html</a><br>
+<strong>Note 2:</strong> for more crystallographic data see <a href="https://www.cryst.ehu.es/">Bilbao Crystallographic Server</a></p>
+<hr>
+<h4 id="further-links">Further links:</h4>
+<ul>
+<li><a href="https://ase-workshop.materialsmodeling.org/">ASE-workshop 2019 @ Chalmers</a></li>
+<li><a href="http://som.web.cmu.edu/frames2.html">The Structure of Materials</a> (book)</li>
+<li><a href="https://materialsproject.org/">The Material Project</a> web-based access to computed material properties</li>
+</ul>
+<hr>
+<p>Martin Gmitra :: <a href="mailto:martin.gmitra@upjs.sk">martin.gmitra@upjs.sk</a><br>
+<a rel="license" href="http://creativecommons.org/licenses/by/4.0/"><img alt="Creative Commons License" src="https://i.creativecommons.org/l/by/4.0/80x15.png"></a> This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</a>.</p>
+<!--stackedit_data:&#10;eyJoaXN0b3J5IjpbLTc1MzUwNjA2NSwtMTg1NzE5MDY4MiwtMT&#10;Y4ODQ2NzUyNSwxMTI0MzcxNTQ2LDE3ODA3Njg0NzRdfQ==&#10;-->
+</div>
+</body>
+
+</html>
