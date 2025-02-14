@@ -18,6 +18,8 @@ Save the file content with the "Hello world" program should look like:
 print('Hello, world!')
 ```
 2) Let's explore the basic elements of the ASE package. The most fundamnetal structural unit is ```Atom``` object (see [Atom](https://wiki.fysik.dtu.dk/ase/ase/atom.html) for more details). Try to create the aluminium atom at position r=(0,0,0), with aluminium atomic mass and charge (see [ptable](https://ptable.com/#Properties)) using 	```python_apmm```.
+```
+`
 >from ase import Atom
 >al = Atom('Al', position = (0, 0, 0), charge = ?, mass = ?)
 
@@ -90,7 +92,7 @@ struct = polonium
 ase.io.write("Po_ase.cif", struct, "cif")
 ```
  Run the script
-> python3 Po_ase.py
+> python_apmm Po_ase.py
 
 which uses ASE to generate a [simple cubic crystal](https://wiki.fysik.dtu.dk/ase/ase/lattice.html) of polonium,  and writes cif structure file for further visualization, e.g., using VESTA program
 > VESTA Po_ase.cif
@@ -243,9 +245,10 @@ eyJoaXN0b3J5IjpbLTc1MzUwNjA2NSwtMTg1NzE5MDY4MiwtMT
 Y4ODQ2NzUyNSwxMTI0MzcxNTQ2LDE3ODA3Njg0NzRdfQ==
 -->
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQ5NjQ3Mjc0OSwxMDg4ODkwMjUyLC05ND
-EyNDU3NjAsMTc5NDQ0NDA0MCwxNzI0MjA5ODY0LDQzNjY4NDY3
-Nyw2NzU2MjE0NzUsMTczNDU2NDgwOSwtMTM1Mzc4MDk2MiwtMT
-Q5NTM3OTEzNCwxNjYzNzUyMjE2LC0xMDkyMzMyMjg4LDExMDUy
-MDIxNDUsMTk3OTIwMzAyNywtMjEyOTgzNjE2NV19
+eyJoaXN0b3J5IjpbLTExNTM1ODI3NjYsMTQ5NjQ3Mjc0OSwxMD
+g4ODkwMjUyLC05NDEyNDU3NjAsMTc5NDQ0NDA0MCwxNzI0MjA5
+ODY0LDQzNjY4NDY3Nyw2NzU2MjE0NzUsMTczNDU2NDgwOSwtMT
+M1Mzc4MDk2MiwtMTQ5NTM3OTEzNCwxNjYzNzUyMjE2LC0xMDky
+MzMyMjg4LDExMDUyMDIxNDUsMTk3OTIwMzAyNywtMjEyOTgzNj
+E2NV19
 -->
