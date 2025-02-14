@@ -5,7 +5,7 @@ Aims of the exercise is to introduce linux software platform used for the exerci
 - more about ASE see [homepage](https://wiki.fysik.dtu.dk/ase/about.html)
 
 
-## TASK 01
+## TASK 01 - getting to know ASE
 
 1) open command line terminal and create folder ASE, change working directory to the ASE folder, create and edit a file ASE_ase.py within the aluminium folder
 >    mkdir ASE
@@ -59,12 +59,13 @@ If there is a need to change the original cell (squeeze or stretch, bend it) tog
 >view(atoms)
 
 <center>
-  <img src="https://github.com/timmos1/APMM_2025/blob/master/N3.png?raw=true" width="200" height="200">
+  <img src="https://github.com/timmos1/APMM_2025/blob/master/pic2.png?raw=true" width="200" height="200">
 </center>
 
 
 
-## TASK 02
+## TASK 02 - Atoms in disguise
+In this task we are going to explore several other objects of ase library which generate a
 
 1)Create a new directory silllicon 
 > cd ..
@@ -242,9 +243,9 @@ eyJoaXN0b3J5IjpbLTc1MzUwNjA2NSwtMTg1NzE5MDY4MiwtMT
 Y4ODQ2NzUyNSwxMTI0MzcxNTQ2LDE3ODA3Njg0NzRdfQ==
 -->
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTcwMjg4NDIxNywxMDg4ODkwMjUyLC05ND
-EyNDU3NjAsMTc5NDQ0NDA0MCwxNzI0MjA5ODY0LDQzNjY4NDY3
-Nyw2NzU2MjE0NzUsMTczNDU2NDgwOSwtMTM1Mzc4MDk2MiwtMT
-Q5NTM3OTEzNCwxNjYzNzUyMjE2LC0xMDkyMzMyMjg4LDExMDUy
-MDIxNDUsMTk3OTIwMzAyNywtMjEyOTgzNjE2NV19
+eyJoaXN0b3J5IjpbMzExNjgwNzcxLDEwODg4OTAyNTIsLTk0MT
+I0NTc2MCwxNzk0NDQ0MDQwLDE3MjQyMDk4NjQsNDM2Njg0Njc3
+LDY3NTYyMTQ3NSwxNzM0NTY0ODA5LC0xMzUzNzgwOTYyLC0xND
+k1Mzc5MTM0LDE2NjM3NTIyMTYsLTEwOTIzMzIyODgsMTEwNTIw
+MjE0NSwxOTc5MjAzMDI3LC0yMTI5ODM2MTY1XX0=
 -->
