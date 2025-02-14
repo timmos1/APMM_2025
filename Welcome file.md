@@ -28,7 +28,7 @@ In order to crate more interesting systems consisting of several atoms ASE provi
 
 Create the simple ```N3``` molecule:
 >from  ase  import Atoms
->atoms = Atoms(\'N3\', [(0, 0, 0), (1, 0, 0), (0, 0, 1)])
+>atoms = Atoms(\'N3\', [(0, 0, 0), (1, 0, 0), (0, 0, 1)])\
 
 Let's now check the positions on which were the individual atoms set and move them to new ones and print them out
 >atoms.get_positions()
@@ -242,7 +242,7 @@ eyJoaXN0b3J5IjpbLTc1MzUwNjA2NSwtMTg1NzE5MDY4MiwtMT
 Y4ODQ2NzUyNSwxMTI0MzcxNTQ2LDE3ODA3Njg0NzRdfQ==
 -->
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTU4NTE2MzM4MCwxMDg4ODkwMjUyLC05ND
+eyJoaXN0b3J5IjpbMTQ3MDAyMTQ1MiwxMDg4ODkwMjUyLC05ND
 EyNDU3NjAsMTc5NDQ0NDA0MCwxNzI0MjA5ODY0LDQzNjY4NDY3
 Nyw2NzU2MjE0NzUsMTczNDU2NDgwOSwtMTM1Mzc4MDk2MiwtMT
 Q5NTM3OTEzNCwxNjYzNzUyMjE2LC0xMDkyMzMyMjg4LDExMDUy
